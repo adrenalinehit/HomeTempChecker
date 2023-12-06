@@ -12,8 +12,8 @@ try:
                 temperature = float(tempdata[2:])
                 temperature = temperature / 1000
                 m.log(MetricName='CurrentTemp', Value=temperature, Unit='None')
-                #print temperature
-                #print "logged"
+                # print temperature
+                # print "logged"
 
                 time.sleep(300)
 except KeyboardInterrupt:
