@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to the directory containing the Python script
-cd code
+cd ./code
 
 # Run the Python script
-python templogger.py &
+nohup python templogger.py > /dev/null 2>&1 &
