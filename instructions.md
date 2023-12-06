@@ -1,6 +1,7 @@
 # Useful command line incantations
 
 ## Rudimentary get shit working
+- you'll need an AWS account and some creds in an AWS profile configured somewhere (for the logging to work)
 - lsusb
 - date --set="2023-12-05 20:50:00.000"
 - lsmod
@@ -15,6 +16,9 @@
 ## Python stuff
 - pip install cloudwatch-fluent-metrics
 - apt-get install python-gpiozero
+
+## AWS
+- I've shared the cloudwatch dashboard publicly - that's up to you
 
 ## Running it!
 
