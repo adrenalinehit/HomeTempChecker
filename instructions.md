@@ -1,4 +1,4 @@
-#Useful command line tools
+*Useful command line tools
 
 lsusb
 iwlist wlanX scan
