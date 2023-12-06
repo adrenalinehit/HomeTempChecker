@@ -16,4 +16,9 @@
 - pip install cloudwatch-fluent-metrics
 - apt-get install python-gpiozero
 
+## Running it!
+
+- chmod +x logtemp.sh
+- sh logtemp.sh
+
 (_all with various levels of sudo'ing!_)
