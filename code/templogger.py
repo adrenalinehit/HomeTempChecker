@@ -11,7 +11,7 @@ try:
         tempdata = thetext.split("\n")[1].split(" ")[9]
         temperature = float(tempdata[2:])
         temperature = temperature / 1000
-        m.log(MetricName="CurrentTemp", Value=temperature, Unit="Degrees C")
+        m.log(MetricName="CurrentTemp", Value=temperature, Unit="None")
         # print temperature
         # print "logged"
 
