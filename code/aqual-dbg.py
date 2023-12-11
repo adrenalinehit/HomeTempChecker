@@ -18,4 +18,4 @@ aqi = float(myaqi)
 
 print(pmtwo)
 print(pmten)
-print(myaqi)
+print(aqi)
