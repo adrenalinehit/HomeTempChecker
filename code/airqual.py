@@ -1,6 +1,7 @@
 import time
 import aqi
 from fluentmetrics import FluentMetric
+import serial
 
 pm2 = FluentMetric().with_namespace("AirQual").with_stream_id("pm2")
 pm10 = FluentMetric().with_namespace("AirQual").with_stream_id("pm10")
