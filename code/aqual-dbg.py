@@ -1,5 +1,6 @@
 import time
 import aqi
+import serial
 
 ser = serial.Serial('/dev/ttyUSB0')
 
