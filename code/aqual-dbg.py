@@ -16,6 +16,6 @@ myaqi = aqi.to_aqi([(aqi.POLLUTANT_PM25, str(pmtwo)),
                     (aqi.POLLUTANT_PM10, str(pmten))])
 aqi = float(myaqi)
 
-print(pm2)
-print(pm10)
-print(pmaqi)
+print(pmtwo)
+print(pmten)
+print(myaqi)
