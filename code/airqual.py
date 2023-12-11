@@ -24,5 +24,3 @@ aqi = float(myaqi)
 pm2.log(MetricName="CurrentPM25", Value=pmtwo, Unit="None")
 pm10.log(MetricName="CurrentPM10", Value=pmten, Unit="None")
 pmaqi.log(MetricName="CurrentAQI", Value=aqi, Unit="None")
-
-time.sleep(300)
